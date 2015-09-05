@@ -1,0 +1,33 @@
+{
+  "name": "jvsdisplayotron",
+  "version": "1.0.0",
+  "description": "A lightweight but powerful module, that allows you to easily control a Display-O-Tron 3000 / HAT from Node.js",
+  "keywords": [
+    "pimoroni",
+    "display-o-tron",
+    "displayotron",
+    "display",
+    "o",
+    "tron",
+    "dot",
+    "3000",
+    "3k",
+    "hat",
+    "raspberry",
+    "pi"
+  ],
+  "homepage": "https://github.com/jorisvervuurt/jvsdisplayotron",
+  "bugs": {
+    "url": "https://github.com/jorisvervuurt/jvsdisplayotron/issues"
+  },
+  "license": "MIT",
+  "author": "Joris Vervuurt <developer@joris-vervuurt.com> (https://www.joris-vervuurt.com)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorisvervuurt/jvsdisplayotron"
+  },
+  "dependencies": {
+    "sudo": "^1.0.3"
+  }
+}
