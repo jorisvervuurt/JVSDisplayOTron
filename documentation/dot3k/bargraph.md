@@ -43,4 +43,3 @@ Sets the brightness of a specific LED.
 | --- | --- | --- |
 | ledIndex | <code>Number</code> | The index of the LED (should be between 0 and 8). |
 | brightness | <code>Number</code> | The brightness value (should be between 0 and 255). |
-

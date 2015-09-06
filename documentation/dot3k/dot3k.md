@@ -25,4 +25,3 @@ Kills the Python process used by JVSDisplayOTron.
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
 | [performReset] | <code>Boolean</code> | <code>false</code> | A value that indicates whether a reset should be performed prior to killing the process. Optional (false by default). |
-

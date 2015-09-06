@@ -11,4 +11,3 @@ Note: you should not instantiate this class directly. Instead, use the `createCh
 | --- | --- | --- |
 | memoryPosition | <code>Number</code> | The Display-O-Tron memory position (should be between 0 and 7). |
 | map | <code>Array</code> | An array containing eight 8-bit integers. |
-

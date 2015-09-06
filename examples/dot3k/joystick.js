@@ -18,35 +18,35 @@ function writeOnDisplay(value) {
 }
 
 /**
- * Handles the 'up' event of the joystick.
+ * Handles the 'up' event of the joystick component.
  */
 dot3k.joystick.on('up', function() {
     writeOnDisplay('Navigate up.');
 });
 
 /**
- * Handles the 'down' event of the joystick.
+ * Handles the 'down' event of the joystick component.
  */
 dot3k.joystick.on('down', function() {
     writeOnDisplay('Navigate down.');
 });
 
 /**
- * Handles the 'left' event of the joystick.
+ * Handles the 'left' event of the joystick component.
  */
 dot3k.joystick.on('left', function() {
     writeOnDisplay('Navigate left.');
 });
 
 /**
- * Handles the 'right' event of the joystick.
+ * Handles the 'right' event of the joystick component.
  */
 dot3k.joystick.on('right', function() {
     writeOnDisplay('Navigate right.');
 });
 
 /**
- * Handles the 'button' event of the joystick.
+ * Handles the 'button' event of the joystick component.
  */
 dot3k.joystick.on('button', function() {
     writeOnDisplay('Button pressed.');

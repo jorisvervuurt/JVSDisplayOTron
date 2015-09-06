@@ -102,7 +102,6 @@ The options object should contain the following properties:
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| lcd | <code>LCD</code> |  | The `LCD` instance. |
 | memoryPosition | <code>Number</code> |  | The Display-O-Tron memory position (should be between 0 and 7). |
 | frames | <code>Array</code> |  | An array containing at least two arrays, each containing eight 8-bit integers. |
 | frameRate | <code>Number</code> |  | The frame rate (frames per second). |
@@ -117,6 +116,3 @@ Writes an animated character to the display at the current cursor position.
 | Param | Type | Description |
 | --- | --- | --- |
 | animatedCharacter | <code>LCDAnimatedCharacter</code> | An animated character returned by the `createAnimatedCharacter` function. |
-
-
-

@@ -46,4 +46,4 @@ Stops animating the character.
 ### lcdAnimatedCharacter.reset()
 Resets the character.
 
-**Kind**: instance method of <code>[LCDAnimatedCharacter](#LCDAnimatedCharacter)</code>  
+**Kind**: instance method of <code>[LCDAnimatedCharacter](#LCDAnimatedCharacter)</code>

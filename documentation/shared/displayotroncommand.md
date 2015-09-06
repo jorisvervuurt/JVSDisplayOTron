@@ -34,4 +34,4 @@ Adds a parameter to the command.
 Returns the JSON representation of the command.
 
 **Kind**: instance method of <code>[DisplayOTronCommand](#DisplayOTronCommand)</code>  
-**Returns**: <code>String</code> - The JSON representation of the command.  
+**Returns**: <code>String</code> - The JSON representation of the command.

@@ -134,4 +134,3 @@ Sets the right backlight zone to a specific RGB color.
 | red | <code>Number</code> | The red value (should be between 0 and 255). |
 | green | <code>Number</code> | The green value (should be between 0 and 255). |
 | blue | <code>Number</code> | The blue value (should be between 0 and 255). |
-

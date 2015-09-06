@@ -43,4 +43,3 @@ Sends a command to the Display-O-Tron.
 | --- | --- | --- |
 | command | <code>DisplayOTronCommand</code> | The command to send. |
 | [callback] | <code>function</code> | A function to call when the command has been sent. Optional. |
-

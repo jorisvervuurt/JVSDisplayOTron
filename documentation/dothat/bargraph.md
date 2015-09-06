@@ -55,4 +55,3 @@ Sets the enabled state of a specific LED.
 | --- | --- | --- |
 | ledIndex | <code>Number</code> | The index of the LED (should be between 0 and 5). |
 | enabledState | <code>Boolean</code> | A value that indicates whether the LED is enabled. |
-

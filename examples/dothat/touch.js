@@ -8,55 +8,53 @@ var dothat = new JVSDisplayOTron.DOTHAT();
 dothat.lcd.setContrast(45);
 
 /**
- * Handles the 'up' event.
+ * Clears the display and writes a string on the second row of the display.
+ * @param {String} value The string to write.
+ */
+function writeOnDisplay(value) {
+    dothat.lcd.clear();
+    dothat.lcd.setCursorPosition(0, 1);
+    dothat.lcd.write(value);
+}
+
+/**
+ * Handles the 'up' event of the touch component.
  */
 dothat.touch.on('up', function() {
-    dothat.lcd.clear();
-    dothat.lcd.setCursorPosition(0, 1);
-    dothat.lcd.write('Navigate up.');
+    writeOnDisplay('Navigate up.');
 });
 
 /**
- * Handles the 'down' event.
+ * Handles the 'down' event of the touch component.
  */
 dothat.touch.on('down', function() {
-    dothat.lcd.clear();
-    dothat.lcd.setCursorPosition(0, 1);
-    dothat.lcd.write('Navigate down.');
+    writeOnDisplay('Navigate down.');
 });
 
 /**
- * Handles the 'left' event.
+ * Handles the 'left' event of the touch component.
  */
 dothat.touch.on('left', function() {
-    dothat.lcd.clear();
-    dothat.lcd.setCursorPosition(0, 1);
-    dothat.lcd.write('Navigate left.');
+    writeOnDisplay('Navigate left.');
 });
 
 /**
- * Handles the 'right' event.
+ * Handles the 'right' event of the touch component.
  */
 dothat.touch.on('right', function() {
-    dothat.lcd.clear();
-    dothat.lcd.setCursorPosition(0, 1);
-    dothat.lcd.write('Navigate right.');
+    writeOnDisplay('Navigate right.');
 });
 
 /**
- * Handles the 'button' event.
+ * Handles the 'button' event of the touch component.
  */
 dothat.touch.on('button', function() {
-    dothat.lcd.clear();
-    dothat.lcd.setCursorPosition(0, 1);
-    dothat.lcd.write('Button touched.');
+    writeOnDisplay('Button touched.');
 });
 
 /**
- * Handles the 'cancel' event.
+ * Handles the 'cancel' event of the touch component.
  */
 dothat.touch.on('cancel', function() {
-    dothat.lcd.clear();
-    dothat.lcd.setCursorPosition(0, 1);
-    dothat.lcd.write('Cancel touched.');
+    writeOnDisplay('Cancel touched.');
 });
