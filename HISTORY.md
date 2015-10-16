@@ -1,5 +1,9 @@
 ## JVSDisplayOTron change history
 
+### v1.1 - October 16, 2015
+* No longer depends on `node-sudo` (requires Raspbian Jessie).
+* Added touch functions for enabling high sensitivity mode and event repeating.
+
 ### v1.0.2 - September 8, 2015
 * Updated examples.
 
