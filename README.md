@@ -12,7 +12,7 @@ Many thanks go to [Kiwi Electronics](https://www.kiwi-electronics.nl) and [Pimor
 * Pimoroni [Display-O-Tron 3000](http://shop.pimoroni.com/products/displayotron-3000) or [Display-O-Tron HAT](http://shop.pimoroni.com/products/display-o-tron-hat)
 
 ## Installation
-Note: these installation instructions assume that your Raspberry Pi is running an installation of [Raspbian](https://www.raspberrypi.org/downloads/raspbian/), with both [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com) installed. Additionally, JVSDisplayOTron requires Python 2.x, which should come pre-installed with Raspbian.
+Note: these installation instructions assume that your Raspberry Pi is running an installation of [Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/), with both [Node.js](https://nodejs.org) and [npm](https://www.npmjs.com) installed. Additionally, JVSDisplayOTron requires Python 2.x, which should come pre-installed with Raspbian.
 
 ### Preparing for the installation
 1. First of all, make sure that the Raspberry Pi is up-to-date:
