@@ -2,7 +2,7 @@
 > A lightweight but powerful module, that allows you to easily control a [Display-O-Tron 3000](http://shop.pimoroni.com/products/displayotron-3000) / [HAT](http://shop.pimoroni.com/products/display-o-tron-hat) from [Node.js](https://nodejs.org)
 
 ## Features
-JVSDisplayOTron allows you to make use of all features available in [Pimoroni's Python library](https://github.com/pimoroni/dot3k). Both the Display-O-Tron 3000 and Display-O-Tron HAT are supported.
+JVSDisplayOTron allows you to make use of almost all features available in [Pimoroni's Python library](https://github.com/pimoroni/dot3k). Both the Display-O-Tron 3000 and Display-O-Tron HAT are supported.
 
 Many thanks go to [Kiwi Electronics](https://www.kiwi-electronics.nl) and [Pimoroni](https://shop.pimoroni.com), as this module wouldn't exist without their support. :-)
 
