@@ -8,7 +8,7 @@ Many thanks go to [Kiwi Electronics](https://www.kiwi-electronics.nl) and [Pimor
 
 ## Hardware requirements
 
-* [Raspberry Pi](https://www.raspberrypi.org/help/what-is-a-raspberry-pi/) (tested on a Pi 2 Model B only, but should work on all previous models)
+* [Raspberry Pi](https://www.raspberrypi.org/help/what-is-a-raspberry-pi/) (tested on a Pi 2 Model B only, but should work on all previous models supported by the Display-O-Tron model you're using)
 * Pimoroni [Display-O-Tron 3000](http://shop.pimoroni.com/products/displayotron-3000) or [Display-O-Tron HAT](http://shop.pimoroni.com/products/display-o-tron-hat)
 
 ## Installation
