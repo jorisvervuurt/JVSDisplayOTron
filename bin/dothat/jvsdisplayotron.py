@@ -120,7 +120,7 @@ while True:
             backlight.right_rgb(parameters['red'], parameters['green'], parameters['blue'])
     elif component == 'BarGraph':
         if command == 'turnOff':
-            backlight.graph_off();
+            backlight.graph_off()
         elif command == 'setByPercentage':
             backlight.set_graph(float(parameters['percentage']) / 100)
         elif command == 'setBrightness':
@@ -128,3 +128,8 @@ while True:
         elif command == 'setEnabledStateOfLed':
             backlight.graph_set_led_polarity(parameters['ledIndex'], 0b00000000)
             backlight.graph_set_led_state(parameters['ledIndex'], 1 if parameters['enabledState'] else 0)
+    elif component == 'Touch':
+        if command == 'enableHighSensitivityMode':
+            touch.high_sensitivity()
+        elif command == 'enableEventRepeating':
+            touch.enable_repeat(True)

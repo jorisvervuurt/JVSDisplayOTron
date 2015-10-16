@@ -1,6 +1,12 @@
 <a name="Touch"></a>
 ## Touch
 **Kind**: global class  
+
+* [Touch](#Touch)
+  * [new Touch(displayOTron)](#new_Touch_new)
+  * [.enableHighSensitivityMode()](#Touch+enableHighSensitivityMode)
+  * [.enableEventRepeating()](#Touch+enableEventRepeating)
+
 <a name="new_Touch_new"></a>
 ### new Touch(displayOTron)
 Creates a new `Touch` object.
@@ -10,6 +16,14 @@ Note: you should not instantiate this class directly. Instead, use the `touch` p
 | Param | Type | Description |
 | --- | --- | --- |
 | displayOTron | <code>DisplayOTron</code> | The `DisplayOTron` instance. |
+
+<a name="Touch+enableHighSensitivityMode"></a>
+### touch.enableHighSensitivityMode()
+Enables high sensitivity mode.
+
+<a name="Touch+enableEventRepeating"></a>
+### touch.enableEventRepeating()
+Enables event repeating.
 
 ### Events
 <code>[Touch](#Touch)</code> is an `EventEmitter`. 
