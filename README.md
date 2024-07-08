@@ -2,7 +2,7 @@
 > A lightweight but powerful module, that allows you to easily control a [Display-O-Tron 3000](http://shop.pimoroni.com/products/displayotron-3000) / [HAT](http://shop.pimoroni.com/products/display-o-tron-hat) from [Node.js](https://nodejs.org)
 
 # IMPORTANT NOTICE
-This repository has moved to [GitLab](https://gitlab.joris-vervuurt.com/pimoroni/jvsdisplayotron).
+This repository has moved to [GitLab](https://gitlab.joris-vervuurt.com/node/pimoroni/jvsdisplayotron).
 The GitHub repository been archived and will no longer be maintained.
 
 ## Features
